@@ -1,0 +1,5 @@
+. How do you see the files changed within each commit from git log?Primeramente su orden es de manera Cronologico, esto quiere decir que estan ordenadados de acuerdo al tiempo de su modificacion, luego se basan en 4 lineas, la primera con su identificador unico del commit (40 caracteres), la segunda seran los datos, la siguiente muestra cuando paso el commit y la ultima que va en relacion al mensaje colocado antes al commit.
+2. How do you see the contents of what changed within each file from the git log?
+Podemos ver todos los cambios a traves del comando git diff, este nos mastrara todo el contenido que se ha cambiado dentro de cada commit remarcando los cambios con una linea en difernete color con el contenido que se cambio y en rojo el contenido anterior
+3. What does *HEAD* refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+Hace referencia al commit en el que esta repositorio posicionado en cada momento que por lo general coincide coincide con el ultimo commit de la rama donde estes.
